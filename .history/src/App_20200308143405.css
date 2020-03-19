@@ -1,0 +1,39 @@
+
+
+.container{
+  padding: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+
+}
+
+.movie__item{
+  box-shadow: 0 0 18px rgba(214,214,214,.9);
+  flex: 0 0 22%;
+  margin: 10px;
+}
+
+.movie__title{
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  
+}
+
+.movie__poster{
+  max-width: 100%;
+}
+.movie__poster img{
+  width: 100%;
+}
+
+
+.movie__rank{
+  color: goldenrod;
+  font-size: 1.5em;
+}
+
+
+
+

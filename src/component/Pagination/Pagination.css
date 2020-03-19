@@ -1,0 +1,10 @@
+.pagination__container{
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.active{
+    font-weight: bold;
+    text-decoration: underline;
+}

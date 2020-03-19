@@ -1,0 +1,32 @@
+
+
+.container{
+  padding: 1em;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+.movie__item{
+  box-shadow: 0 0 18px rgba(214,214,214,.3);
+  flex: 0 0 20%;
+  margin: 10px;
+}
+
+.movie__title{
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  
+}
+
+.movie__poster{
+  max-width: 100%;
+}
+.movie__poster img{
+  width: 100%;
+}
+
+
+
+

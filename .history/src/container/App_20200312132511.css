@@ -1,0 +1,126 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background: rgba(207, 203, 197, 0.671);
+
+
+}
+
+.movie__tabs{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.nav__link{
+  padding: 5px 10px;
+  background: #ffffff;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.nav__link .active{
+  background: #7e72c5;
+  color: #ffffff;
+}
+
+.nav__link:hover{
+  
+}
+
+.nav__link:active{
+  opacity: .5;;
+}
+
+.movie__wrapper{
+  max-width: 100%;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+
+}
+
+.willWatch{
+  flex: 0 0 20%;
+  background: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.willWatch p{
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+.movies{  
+  flex: 0 0 80%;
+  padding: 5px;
+  display: flex;
+  flex-flow: row wrap;
+
+
+
+}
+
+.movie__item{
+  box-shadow: 0 0 18px rgba(214,214,214,.9);
+  flex: 0 0 22%;
+  margin: 10px;
+  background: #ffffff;
+}
+
+.movie__title{
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  
+}
+
+.movie__poster{
+  max-width: 100%;
+}
+.movie__poster img{
+  width: 100%;
+}
+
+
+.movie__rank{
+  color: goldenrod;
+  font-size: 1.5em;
+}
+
+.movie__btn{
+  margin: 5px auto;
+  background: red;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+
+
+
+.willWatch__btn{
+  float: right;
+  margin: 5px;
+  background: rgb(101, 116, 105);
+  color: #ffffff;
+  border-radius: 8px;
+
+}
+.willWatch__btn--success{
+  float: right;
+  margin: 5px;
+  background: rgb(22, 170, 29);
+  color: #ffffff;
+  border-radius: 8px;
+
+}
+
+
+
+

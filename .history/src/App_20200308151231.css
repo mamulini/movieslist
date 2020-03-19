@@ -1,0 +1,48 @@
+
+
+.container{
+  padding: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  background: lavender;
+
+}
+
+.movie__item{
+  box-shadow: 0 0 18px rgba(214,214,214,.9);
+  flex: 0 0 22%;
+  margin: 10px;
+}
+
+.movie__title{
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  
+}
+
+.movie__poster{
+  max-width: 100%;
+}
+.movie__poster img{
+  width: 100%;
+}
+
+
+.movie__rank{
+  color: goldenrod;
+  font-size: 1.5em;
+}
+
+.movie__btn{
+  float: right;
+  margin: 5px;
+  background: indigo;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+
+
+

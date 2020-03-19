@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  padding: 1em;
+  display: flex;
+  flex-flow: raw wrap;
+
+}
+
+.container h1{
+  padding: 10px;
+}
